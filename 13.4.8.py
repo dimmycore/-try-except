@@ -1,7 +1,7 @@
 try:
     i = int(input('введите число:\t'))
 except ValueError as e:
-    print('вы ввели неприавльное число')
+    print('вы ввели неправильное число')
 else:
     print(f'вы ввели {i}')
 finally:
